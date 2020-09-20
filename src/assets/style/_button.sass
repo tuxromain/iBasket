@@ -1,0 +1,25 @@
+.button
+    border: none
+    border-radius: 1rem
+    background: none
+    padding: 1rem 2rem
+    font-size: 1.4rem
+    font-family: $fontSecondary
+    text-transform: uppercase
+
+    &:hover, &:focus, &:active
+        outline: none
+
+    &.button_primary
+        background-color: $colorPrimary
+        color: #fff
+
+        &:hover
+            background-color: $colorPrimaryDarker
+
+    &.button_secondary
+        background-color: $colorText
+        color: #fff
+
+    &.button_borders
+        border: solid 1px $colorText
